@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String appTitle = 'Flutter layout demo';
+    const String appTitle = 'Top 5 lugares del Ecuador';
     return MaterialApp(
       title: appTitle,
       home: Scaffold(
@@ -23,27 +23,31 @@ class MyApp extends StatelessWidget {
             TextSection(
                 description:
                     "La Ciudad Mitad del Mundo es un complejo turístico y cultural propiedad de la prefectura de la provincia de Pichincha. Está situado en la parroquia de San Antonio del Distrito Metropolitano de Quito, al norte de la ciudad de Quito."),
-            ImageSection(image: "images/mitad-del-mundo-quito.jpg"),
+            ImageSection(image: "images/panecillo.jpg"),
             TitleSection(name: "El Panecillo", location: "Quito"),
             ButtonSection(),
             TextSection(
                 description:
                     "Es el más importante mirador natural de la ciudad de Quito, declarada Patrimonio Cultural de la Humanidad. Junto a la Virgen del Panecillo, podrás apreciar el Centro Histórico de la Carita de Dios ¡No puedes dejar de visitar este lugar!"),
-            ImageSection(image: "images/mitad-del-mundo-quito.jpg"),
+            ImageSection(image: "images/galapagos.jpg"),
             TitleSection(
                 name: "Parque Nacional Galápagos", location: "Galápágos"),
             ButtonSection(),
             TextSection(
                 description:
                     "Las islas Galápagos1​ (también islas de las Galápagos y oficialmente conocidas como archipiélago de Colón1​ o archipiélago de Galápagos)2​ constituyen un archipiélago del océano Pacífico ubicado a 972 km de la costa de Ecuador."),
-            ImageSection(image: "images/mitad-del-mundo-quito.jpg"),
+            ImageSection(image: "images/cajas.jpg"),
             TitleSection(name: "Parque Nacional Cajas ", location: "Cuenca"),
             ButtonSection(),
-            TextSection(description: "holiiiii"),
-            ImageSection(image: "images/mitad-del-mundo-quito.jpg"),
+            TextSection(
+                description:
+                    "El parque nacional Cajas (PNC) es un área protegida, situada en los Andes sur del Ecuador, 33 km al noroccidente de la ciudad de Cuenca, dentro de la provincia de Azuay. El acceso más común al parque es la vía Colectora Cuenca-Puerto Inca (E582), también llamada vía Cuenca-Sayausí-Molleturo."),
+            ImageSection(image: "images/iguanas.jpg"),
             TitleSection(name: "Parque de las Iguanas", location: "Guayaquil"),
             ButtonSection(),
-            TextSection(description: "holiiiii")
+            TextSection(
+                description:
+                    "El Parque Seminario también conocido como Parque Bolívar o Parque de las Iguanas es un pequeño y tradicional parque urbano público ubicado en el sector Rocafuerte en el centro de la ciudad de Guayaquil.")
           ],
         )),
       ),
