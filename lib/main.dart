@@ -20,15 +20,27 @@ class MyApp extends StatelessWidget {
             ImageSection(image: "images/mitad-del-mundo-quito.jpg"),
             TitleSection(name: "Mitad del mundo", location: "Quito"),
             ButtonSection(),
-            TextSection(description: "holiiiii"),
+            TextSection(
+                description:
+                    "La Ciudad Mitad del Mundo es un complejo turístico y cultural propiedad de la prefectura de la provincia de Pichincha. Está situado en la parroquia de San Antonio del Distrito Metropolitano de Quito, al norte de la ciudad de Quito."),
+            ImageSection(image: "images/mitad-del-mundo-quito.jpg"),
             TitleSection(name: "El Panecillo", location: "Quito"),
             ButtonSection(),
-            TextSection(description: "holiiiii"),
+            TextSection(
+                description:
+                    "Es el más importante mirador natural de la ciudad de Quito, declarada Patrimonio Cultural de la Humanidad. Junto a la Virgen del Panecillo, podrás apreciar el Centro Histórico de la Carita de Dios ¡No puedes dejar de visitar este lugar!"),
+            ImageSection(image: "images/mitad-del-mundo-quito.jpg"),
             TitleSection(
                 name: "Parque Nacional Galápagos", location: "Galápágos"),
+            ButtonSection(),
+            TextSection(
+                description:
+                    "Las islas Galápagos1​ (también islas de las Galápagos y oficialmente conocidas como archipiélago de Colón1​ o archipiélago de Galápagos)2​ constituyen un archipiélago del océano Pacífico ubicado a 972 km de la costa de Ecuador."),
+            ImageSection(image: "images/mitad-del-mundo-quito.jpg"),
             TitleSection(name: "Parque Nacional Cajas ", location: "Cuenca"),
             ButtonSection(),
             TextSection(description: "holiiiii"),
+            ImageSection(image: "images/mitad-del-mundo-quito.jpg"),
             TitleSection(name: "Parque de las Iguanas", location: "Guayaquil"),
             ButtonSection(),
             TextSection(description: "holiiiii")
